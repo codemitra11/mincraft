@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+       body {
+    margin: 0;
+    padding: 0;
+    background-image: url('2000px.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200vh;
+}
+
+/* Bottom right text */
+.content {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    text-align: right;
+}
+
+/* Force 2 lines properly */
+.content span {
+    display: block;
+}
+
+/* Paragraph above */
+.text {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    font-size: 1.2em;
+}body {
+    margin: 0;
+    padding: 0;
+    background-image: url('2000px.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200vh;
+}
+
+/* Bottom right text */
+.content {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    text-align: right;
+}
+
+/* Force 2 lines properly */
+.content span {
+    display: block;
+}
+
+/* Paragraph above */
+.text {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    font-size: 1.2em;
+}
+
+    </style>
+<script>
+window.addEventListener("scroll", function() {
+    let scroll = window.scrollY;
+    document.body.style.backgroundPositionY = scroll * 0.5 + "px";
+});
+</script>
+</head>
+<body>
+
+<div class="content">
+    <h4>Welcome to My Website<br>
+Made By Raj</h4>
+</div>
+
+<div class="text">
+    <p>
+        A craft is a skilled, often traditional, occupation or hobby
+        focused on making functional or decorative items by hand.
+        It requires specialized manual techniques and expertise in
+        materials like wood, clay, metal, or textiles. Crafts are deeply 
+        tied to cultural heritage and regional identity, often 
+        blending artistry with practical utility.
+    </p>
+</div>
+
+</body></html>
